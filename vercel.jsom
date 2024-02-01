@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/generateImage", "dest": "/api.js" }
+  ],
+  "env": {
+    "HERCAI_API_KEY": "your_hercai_api_key_here"
+  }
+}
