@@ -1,4 +1,4 @@
-// api.js
+
 const { Hercai } = require('hercai');
 const express = require('express');
 const cors = require('cors');
