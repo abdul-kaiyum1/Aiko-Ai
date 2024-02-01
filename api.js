@@ -1,5 +1,4 @@
-
-const { Hercai } = require('hercai');
+const { Hercai } = require('./node_modules/hercai');
 const express = require('express');
 const cors = require('cors');
 
