@@ -21,6 +21,6 @@ app.get('/generateImage', async (req, res) => {
   }
 });
 
-app.listen(port, () => {
+app.listen(port, (3000) => {
   console.log(`Server is running on port ${port}`);
 });
